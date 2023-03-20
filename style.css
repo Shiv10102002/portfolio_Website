@@ -444,11 +444,14 @@ span{
         display: flex;
         flex-direction: column-reverse;
     }
-    .about-img img,.home-image img{
+    .home-image img{
         width: 90%;
         border-radius: 50%;
-        /* max-width: 200px;
-        min-width: 100px; */
+    }
+    .about-img img{
+        min-width: 200px;
+        width: 90%;
+        border-radius: 50%;
     }
     .skill .skill-content .column{
         width: 90%;
